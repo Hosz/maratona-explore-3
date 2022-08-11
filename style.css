@@ -5,6 +5,8 @@
   
   body {
     background-color: #FFEDD5;
+    background-image: url(https://st.depositphotos.com/3470617/4866/v/600/depositphotos_48661055-stock-illustration-breakfast-background.jpg);
+    background-size: cover;
     font-family: 'Roboto', sans-serif;
   }
   
@@ -16,7 +18,7 @@
   h1, h2, h3, .price {
     font-family: 'Roboto Serif', serif;
     text-transform: uppercase;
-    color: #2D2C2A;
+    color: #000000;
   }
   
   header {
@@ -76,8 +78,12 @@
   }
   
   .details p {
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.8);
     font-size: 14px;
     line-height: 21px;
   }
   
+  .caixa{
+   background-color: rgba(255, 255, 255, 0.5);
+  margin: 150px;
+  }
